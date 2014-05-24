@@ -9,7 +9,8 @@
     "connect-mongo": "*",
     "logule": "*",
     "moment": "*",
-    "paperwork": "*"
+    "paperwork": "*",
+    "usb-detection": "*"
   },
   "devDependencies" : {
     "jshint" : "*",
