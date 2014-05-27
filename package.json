@@ -10,6 +10,7 @@
     "logule": "*",
     "moment": "*",
     "paperwork": "*",
+    "sequelize": "*",
     "sqlite3": "*",
     "usb-detection": "*"
   },
