@@ -2,6 +2,7 @@
   "name": "cascade",
   "version": "0.0.1",
   "dependencies": {
+    "connect": "*",
     "express": "*",
     "mongoose": "*",
     "request": "*",
