@@ -6,6 +6,7 @@
     "mongoose": "*",
     "request": "*",
     "underscore": "*",
+    "caminte": "*",
     "connect-mongo": "*",
     "logule": "*",
     "moment": "*",
