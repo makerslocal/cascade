@@ -2,17 +2,11 @@
   "name": "cascade",
   "version": "0.0.1",
   "dependencies": {
-    "connect": "*",
-    "express": "*",
-    "mongoose": "*",
-    "request": "*",
+    "express": "3.x",
     "underscore": "*",
     "caminte": "*",
-    "connect-mongo": "*",
     "logule": "*",
     "moment": "*",
-    "paperwork": "*",
-    "sequelize": "*",
     "sqlite3": "*",
     "usb-detection": "*"
   },
