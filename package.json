@@ -2,39 +2,39 @@
   "name": "cascade",
   "version": "0.0.1",
   "dependencies": {
-    "express": "3.x",
-    "underscore": "*",
     "caminte": "*",
+    "express": "3.x",
     "logule": "*",
     "moment": "*",
-    "sqlite3": "*",
+    "sequelize": "*",
+    "sqlite3": "^2.2.3",
+    "underscore": "*",
     "usb-detection": "*"
   },
-  "devDependencies" : {
-    "jshint" : "*",
-    "jshint-stylish" : "*",
+  "devDependencies": {
+    "jshint": "*",
+    "jshint-stylish": "*",
     "madge": "*",
     "mocha": "*",
     "supertest": "*"
   },
-  "jshintConfig" : {
-    "camelcase" : "true",
-    "curly" : "true",
-    "eqeqeq" : "true",
-    "indent" : "indent:4",
-    "laxbreak" : "true",
-    "laxcomma" : "true",
-    "maxcomplexity" : 3,
-    "maxdepth" : 2,
-    "maxparams" : 3,
-    "maxstatements" : 10,
-    "node" : "true",
+  "jshintConfig": {
+    "camelcase": "true",
+    "curly": "true",
+    "eqeqeq": "true",
+    "indent": "indent:4",
+    "laxbreak": "true",
+    "laxcomma": "true",
+    "maxcomplexity": 3,
+    "maxdepth": 2,
+    "maxparams": 3,
+    "maxstatements": 10,
+    "node": "true",
     "quotmark": "single",
-    "trailing" : "true",
-    "undef" : "true"
+    "trailing": "true",
+    "undef": "true"
   },
   "scripts": {
     "test": "make test"
   }
 }
-
