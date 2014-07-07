@@ -4,6 +4,7 @@
   "dependencies": {
     "caminte": "*",
     "express": "3.x",
+      "heredoc": "*",
     "logule": "*",
     "moment": "*",
     "sequelize": "*",
