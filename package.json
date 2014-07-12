@@ -4,13 +4,13 @@
   "dependencies": {
     "caminte": "*",
     "co": "*",
+    "co-wait": "*",
     "express": "3.x",
     "heredoc": "*",
     "logule": "*",
     "moment": "*",
     "rpi-gpio": "*",
     "sequelize": "*",
-    "sqlite3": "^2.2.3",
     "thunkify": "*",
     "underscore": "*",
     "usb-detection": "*"
