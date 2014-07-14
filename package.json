@@ -7,6 +7,7 @@
     "co-wait": "*",
     "express": "3.x",
     "heredoc": "*",
+    "activedirectory": "*",
     "logule": "*",
     "moment": "*",
     "rpi-gpio": "*",
