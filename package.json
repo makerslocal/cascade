@@ -10,6 +10,7 @@
     "activedirectory": "*",
     "logule": "*",
     "moment": "*",
+    "nfc": "*",
     "rpi-gpio": "*",
     "sequelize": "*",
     "thunkify": "*",
