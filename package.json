@@ -2,6 +2,7 @@
   "name": "cascade",
   "version": "0.0.1",
   "dependencies": {
+    "async": "*",
     "caminte": "*",
     "co": "*",
     "co-wait": "*",
@@ -15,8 +16,8 @@
     "sequelize": "*",
     "sqlite3": "*",
     "thunkify": "*",
-    "underscore": "*",
-    "usb-detection": "*"
+    "udev": "*",
+    "underscore": "*"
   },
   "devDependencies": {
     "jshint": "*",
