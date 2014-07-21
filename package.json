@@ -3,11 +3,6 @@
   "version": "0.0.1",
   "dependencies": {
     "async": "*",
-    "caminte": "*",
-    "co": "*",
-    "co-wait": "*",
-    "express": "3.x",
-    "heredoc": "*",
     "ldapjs": "*",
     "logule": "*",
     "moment": "*",
@@ -15,7 +10,6 @@
     "rpi-gpio": "*",
     "sequelize": "*",
     "sqlite3": "*",
-    "thunkify": "*",
     "udev": "*",
     "underscore": "*"
   },
