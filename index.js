@@ -12,4 +12,4 @@
  ░                           ░                   ░
  */
 
-module.exports = require('./lib/cascade.js').init();
+module.exports = require('./lib');
