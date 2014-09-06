@@ -18,6 +18,7 @@
     "jshint-stylish": "*",
     "madge": "*",
     "mocha": "*",
+    "plato": "*",
     "supertest": "*"
   },
   "scripts": {
