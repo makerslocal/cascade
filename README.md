@@ -26,6 +26,17 @@ Cash Caching Automaton, Deluxe Edition
 4. After rebooting, ssh into our pi
 5. `sudo raspi-config` -> `Advanced Options` -> `Update` -> Finish
 
+## Libnfc conf
+```
+$ sudo cp contrib/libnfc/pn532_uart_on_rpi.conf.sample /etc/nfc/devices.d/pn532_uart_on_rpi.conf
+$ echo "allow_intrusive_scan = true" >> /etc/nfc/device.d/pn532_uart_on_rpi.conf
+```
+
+## edit /etc/inittab
+Comment out 
+```
+T0:23:respawn:/sbin/getty -L ttyAMA0 115200 vt100
+```
 
 ## Pre-reqs
 
