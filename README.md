@@ -32,6 +32,9 @@ $ sudo cp contrib/libnfc/pn532_uart_on_rpi.conf.sample /etc/nfc/devices.d/pn532_
 $ echo "allow_intrusive_scan = true" >> /etc/nfc/device.d/pn532_uart_on_rpi.conf
 ```
 
+## edit /boot/cmdline.txt
+remove ttyAMA0 references
+
 ## edit /etc/inittab
 Comment out 
 ```
