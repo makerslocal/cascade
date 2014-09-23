@@ -3,10 +3,13 @@
   "version": "0.0.1",
   "dependencies": {
     "async": "*",
+    "findup-sync": "*",
+    "heredoc": "*",
     "ldapjs": "*",
     "logule": "*",
     "moment": "*",
     "nfc": "*",
+    "resolve": "*",
     "rpi-gpio": "*",
     "sequelize": "*",
     "sqlite3": "*",
