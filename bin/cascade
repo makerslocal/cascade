@@ -1,0 +1,19 @@
+#!/usr/bin/env node
+
+var findup = require('findup-sync');
+var resolve = require('resolve').sync;
+
+// ..
+
+var basedir = process.cwd();
+
+try {
+  cascadepath = resolve('cascade', {basedir: basedir});
+} catch (ex) {
+  cascadepath = findup('lib/cascade.js');
+  if (!cascadepath) {
+    info.fatal('Unable to find local cascade.', 99);
+  }
+}
+
+require(cascadepath);
