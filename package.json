@@ -5,7 +5,6 @@
   "dependencies": {
     "async": "*",
     "findup-sync": "*",
-    "heredoc": "*",
     "ldapjs": "*",
     "logule": "*",
     "moment": "*",
