@@ -9,6 +9,7 @@
     "logule": "*",
     "moment": "*",
     "nfc": "*",
+    "node-mandrill": "*",
     "resolve": "*",
     "rpi-gpio": "*",
     "sequelize": "*",
