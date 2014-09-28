@@ -13,6 +13,7 @@
     "resolve": "*",
     "rpi-gpio": "*",
     "sequelize": "*",
+    "sequelize-sqlite": "*",
     "sqlite3": "*",
     "udev": "*",
     "underscore": "*"
