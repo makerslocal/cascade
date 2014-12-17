@@ -26,6 +26,12 @@ Cash Caching Automaton, Deluxe Edition
 4. After rebooting, ssh into our pi
 5. `sudo raspi-config` -> `Advanced Options` -> `Update` -> Finish
 
+## Install node.js
+```
+$ wget http://node-arm.herokuapp.com/node_latest_armhf.deb 
+$ sudo dpkg -i node_latest_armhf.deb
+```
+
 ## Libnfc conf
 ```
 $ sudo cp contrib/libnfc/pn532_uart_on_rpi.conf.sample /etc/nfc/devices.d/pn532_uart_on_rpi.conf
